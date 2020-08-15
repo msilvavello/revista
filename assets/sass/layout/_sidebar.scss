@@ -3,9 +3,12 @@
     float: right;
     display: none;
 
-    @include respond-to('small') {
-    display: block;
-  }
+    @include respond-to('large') {
+        display: block;
+    }
+    @include respond-to('extralarge') {
+        display: block;
+    }
 }
 
 .main-content__sidebar__about {
